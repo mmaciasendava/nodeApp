@@ -9,7 +9,6 @@
     "typescript": "^3.3.4000"
   },
   "scripts": {
-    "stop": "taskkill -f -im node.exe",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -20,8 +19,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "jest": "^25.1.0"
-  }
+  ]
 }
